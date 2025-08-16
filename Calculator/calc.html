@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧮</text></svg>">
+
+
+    <title>Calcuator</title>
+</head>
+
+<body>
+
+    <div>
+        <h3>CALCULATOR</h3>
+    </div>
+
+    <div class="input-buttons">
+        <div id="inputbox">
+             <input type="text" id="text" autocomplete="off">
+            </div>
+        <div class="buttons">
+        <button   id="ac" style=" background-color: red; color: white; border: none;">AC</button>
+        <button class="remove" style=" background-color: red; color: white; border: none;">⌫</button>
+        <button class="plusminus" style="border: none;">+/-</button>
+        <button onclick="getvalue('/')" style="border: none;" >/</button>
+        <button class="num" onclick="getvalue(7)">7</button>
+        <button class="num" onclick="getvalue(8)">8</button>
+        <button class="num" onclick="getvalue(9)">9</button>
+        <button onclick="getvalue('*')" style="border: none;">*</button>
+        <button class="num" onclick="getvalue(4)">4</button>
+        <button class="num" onclick="getvalue(5)">5</button>
+        <button class="num" onclick="getvalue(6)">6</button>
+        <button onclick="getvalue('-')" style="border: none;">-</button>
+        <button class="num" onclick="getvalue(1)">1</button>
+        <button class="num" onclick="getvalue(2)">2</button>
+        <button class="num" onclick="getvalue(3)">3</button>
+        <button onclick="getvalue('+')" style="border: none;">+</button>
+        <button class="num" onclick="getvalue('%')" style=" background-color: white; color: black;">%</button>
+        <button class="num" onclick="getvalue(0)">0</button>
+        <button class="num" onclick="getvalue('.')">.</button>
+        <button id="press" style=" background-color: red; color: white; border: none;">=</button>
+        </div>
+    </div>
+    <script src="clac.js"></script>
+</body>
+</html>
