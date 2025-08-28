@@ -1,0 +1,122 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #2980b9, #6dd5fa);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+
+}
+
+.container {
+
+  margin-top: 40px;
+  width: 90%;
+  max-width: 800px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+
+
+}
+
+h1 {
+
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+
+
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;  
+  margin-bottom: 20px;
+
+
+}
+
+input, textarea {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+
+
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background: green;
+  color: white;
+
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+
+.task {
+  background: #f4f4f4;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.task .info {
+  max-width: 70%;
+}
+
+.task .info h4 {
+  margin: 0;
+  color: black;
+}
+
+.task .info p {
+  margin: 4px 0;
+  font-size: 13px;
+  color: #555;
+}
+
+
+.section {
+  margin-top: 20px;
+
+}
+
+
+.date {
+
+  font-size: 12px;
+  color: #888;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+button:hover {
+
+  background: #219150;
+}
+
+.task .actions button {
+  margin-left: 5px;
+  padding: 6px 10px;
+  font-size: 12px;
+}
