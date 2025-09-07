@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(to right, #e3f2fd, #f9f9f9);
+  color: #333;
+  border: none;
+}
+
+
+header {
+
+  background: url('https://wallpaperaccess.com/full/187161.jpg') no-repeat center center/cover;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+}
+
+header .overlay {
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  border-radius: 15px;
+  animation: fadeIn 2s ease-in-out;
+  opacity: 1;
+
+
+}
+
+header h1 {
+
+  font-size: 3.4rem;
+  margin: 0 0 10px;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #ffeb3b;
+  border: none;
+}
+
+section {
+
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: 30px auto;
+  background: #ffffffb0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+
+
+  text-align: center;
+  color: #0a4a82;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+p {
+
+  text-align: justify;
+  font-size: 1.05rem;
+  border: none;
+}
+
+.achievements ul {
+
+  list-style: none;
+  padding: 0;
+  line-height: 1.8;
+}
+
+.achievements li {
+  background: #e3f2fd;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  cursor: default;
+}
+
+.achievements li:hover {
+  background: #bbdefb;
+  transform: scale(1.05);
+}
+
+.books .book-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.books .book {
+
+
+  background: linear-gradient(45deg, #0a4a82, #1976d2);
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+}
+
+.books .book:hover {
+  transform: scale(1.1);
+  background: linear-gradient(45deg, #08406a, #0a58ca);
+}
+
+.quotes .quote {
+  background: #e3f2fd;
+  border-left: 6px solid #0a4a82;
+  margin: 15px 0;
+  padding: 15px;
+  font-size: 1.1rem;
+  font-style: italic;
+  border-radius: 6px;
+
+
+}
+
+.quotes .quote:hover {
+  background: #bbdefb;
+}
+
+.gallary .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  
+  gap: 15px;
+  justify-content: center;
+}
+
+.gallary img {
+  width: 300px;
+  
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease-in-out;
+  
+  height: auto;
+}
+
+.gallary img:hover {
+  transform: scale(1.08);
+}
+
+footer {
+  background: #222;
+  color: #ddd;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  margin-top: 40px;
+  border: none;
+
+
+}
+
+footer p {
+
+    
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
