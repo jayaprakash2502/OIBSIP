@@ -1,0 +1,108 @@
+
+
+body {
+  line-height: 1.6;
+  margin: 0;
+  text-align: center;
+  font-family: arial, sans-serif;
+
+
+  background: linear-gradient(to right, #a8dadc, #f1faee);
+  padding-top: 0px;
+
+}
+
+
+h2 {
+  color: #457b9d;
+  margin-top: 20px;
+  letter-spacing: 0.5px;
+}
+h1 {
+  margin-bottom: 10px;
+  color: #1d3557;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: none;
+  font-weight: bold;
+  background: #1d3557;
+  color: #fff;
+}
+button:hover {
+  background: #457b9d;
+  
+}
+
+p {
+  color: #333;
+  font-size: 14px;
+}
+
+
+input {
+  padding: 10px;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 8px 0;
+  outline: none;
+  
+}
+.mainbox {
+  width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  padding-bottom: 40px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  
+}
+
+.passwordwrapper {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  gap: 8px;
+  
+}
+
+
+.passwordwrapper button {
+  width: 80px;
+  height: 42px;
+  border-radius: 5px;
+  border: 1px solid #1d3557;
+  background: #1d3557;
+  color: white;
+  padding: 0;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+  
+}
+
+.passwordwrapper button:hover {
+  background: #3a5f91;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+ 
+}
+.passwordwrapper input {
+  flex: 1;
+  padding: 10px;
+  height: 42px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
