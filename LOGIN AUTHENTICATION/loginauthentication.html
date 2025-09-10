@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Simple Login Demo</title>
+  <link rel="stylesheet" href="loginauthentication.css">
+</head>
+<body>
+  <div class="mainbox">
+    <h1>Welcome</h1>
+    <p>Please Register or Login to Continue</p>
+
+    <div id="registerbox">
+
+      <h2>Register</h2>
+      <input type="text" id="reguser" placeholder="username">
+
+      <br><br>
+      <div class="passwordwrapper">
+        <input type="password" id="regpass" placeholder="password">
+        <button type="button" onclick="togglepassword('regpass')">Show</button>
+      </div>
+      <small id="passmsg" style="color:red; display:block; margin-top:5px;"></small>
+
+      <br>
+
+      <button onclick="registeruser()">Register</button>
+
+    </div>
+
+    <div id="loginbox">
+
+      <h2>Login</h2>
+
+      <input type="text" id="loginuser" placeholder="username">
+
+      <br><br>
+      <div class="passwordwrapper">
+
+        <input type="password" id="loginpass" placeholder="password">
+        <button type="button" onclick="togglepassword('loginpass')">show</button>
+      </div>
+
+      <br>
+
+      <button onclick="loginuser()">Login</button>
+    </div>
+
+    <div id="securepage" style="display:none;">
+
+      <h2>Secure page</h2>
+      <p>You are Inside the Protected Area only Logged in Users Can See this</p>
+
+      <button onclick="logoutuser()">Logout</button>
+
+    </div>
+  </div>
+
+
+
+  <script src="loginauthentication.js"></script>
+
+</body>
+
+
+</html>
